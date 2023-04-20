@@ -1,16 +1,5 @@
-# darksome README
+# Darksome - A Dark and Awesome Theme for Visual Studio Code
 
-## Working with Markdown
+Darksome is a sleek and visually stunning dark and awesome theme that provides an exceptional programming experience. The deep, rich hues of black, gray, and blue are perfectly balanced to create a comfortable and enjoyable atmosphere for coding. The text is clear and easy to read, and the syntax highlighting makes it effortless to navigate through your code. With Darksome, you'll find yourself effortlessly losing track of time as you immerse yourself in the world of programming. Whether you're working on a personal project or collaborating with a team, this dark and awesome color scheme will undoubtedly elevate your coding game to new heights.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## ***NOTE:*** *This theme is still in development and is not yet ready for usage. Please check back later for updates.*
