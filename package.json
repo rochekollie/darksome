@@ -10,6 +10,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/rochekollie/darksome"},
+  "license": "MIT",
+  "icon": "icon.png",
+  "keywords": [
+    "themes",
+    "dark",
+    "awesome",
+    "darksome"
+  ],
   "categories": [
     "Themes"
   ],
