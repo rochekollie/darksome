@@ -4,7 +4,7 @@
   "publisher": "rochekollie",
   "displayName": "Darksome",
   "description": "Darksome is dark and awesome—a visually stunning theme perfectly balanced for an enjoyable coding experience.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
