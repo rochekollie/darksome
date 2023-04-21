@@ -1,7 +1,9 @@
 # Darksome - A dark and awesome theme
 
-Experience an immersive and stylish design that creates an enjoyable programming experience. The sleek and professional appearance of the theme makes it easy to focus on your code, while the dark color scheme reduces eye strain and fatigue. The theme features a variety of complementary colors that make it easy to distinguish different elements in your code, and the contrast between the colors ensures that your code is easy to read. Whether you are coding for hours on end or just working on a quick project, this dark color theme is the perfect choice for a visually stunning and enjoyable programming experience.
+A sleek and professional dark theme designed to reduce eye strain and fatigue while keeping your focus on your code. Become a highly productive developer with a theme that ensures your code is easy to read with clear and legible text overlaying rich shades of black and gray. Darksome visually stunning syntax highlighting makes it effortless to navigate through your codebase and distinguish different elements in your code with an accessibility complaint contrast ratio.
 
-***Warning***: You may find yourself effortlessly losing track of time as you immerse yourself in the aesthetics of the beauty of coding with Darksome. With clear and legible text overlaying deep, rich hues of black, gray, and blue background, and the syntax highlighting makes it effortless to navigate through your code.
+Enjoy, and happy coding!
 
-## ***NOTE:*** *Sorry, Darksome is still in development and is not yet ready for usage. Please check back later for updates.*
+[@rochekollie](https://twitter.com/rochekollie).
+
+***NOTE***: **Darksome is actively in development and is available for experimental use at this time. Please check back regularly for updates as we continue to improve the theme**.
