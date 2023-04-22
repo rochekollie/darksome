@@ -1,38 +1,48 @@
+#include <iostream>
 #include <string>
-#include <vector>
 
-/*
- * Once upon a time...
- */
+using namespace std;
 
-class Vampire {
- public:
-  Vampire(std::string location, int birth_date, int death_date,
-          std::vector<std::string> weaknesses)
-      : _location{location},
-        _birth_date{birth_date},
-        _death_date{death_date},
-        _weaknesses{weaknesses} {}
+// Define a class called Person
+class Person {
+public:
+  string name;
+  int age;
 
-  int age() { return calc_age(); }
+  Person(string name, int age) {
+    this->name = name;
+    this->age = age;
+  }
 
- private:
-  std::string _location;
-  int _birth_date;
-  int _death_date;
-  std::vector<std::string> _weaknesses;
-
-  int calc_age() { return _death_date - _birth_date; }
+  void sayHello() {
+    cout << "Hello, my name is " << this->name << " and I am " << this->age << " years old." << endl;
+  }
 };
 
-// ...there was a guy named Vlad
-
 int main() {
-  std::string location = "Transylvania";
-  int birth_date = 1428, death_date = 1476;
-  std::vector<std::string> weaknesses { "Sunlight", "Garlic" };
+  // Create two objects of the Person class
+  Person person1("Alice", 25);
+  Person person2("Bob", 30);
 
-  Vampire dracula{location, birth_date, death_date, weaknesses};
+  // Access the properties of the objects
+  cout << person1.name << endl; // Output: "Alice"
+  cout << person2.age << endl; // Output: 30
+
+  // Declare and initialize variables with different data types
+  int myNumber = 42;
+  string myArray[3] = {"apple", "banana", "orange"};
+  string myString = "Hello, world!";
+
+  // Use the variables in different ways
+  cout << myNumber * 2 << endl; // Output: 84
+  cout << myArray[1] << endl; // Output: "banana"
+  cout << myString << endl; // Output: "Hello, world!"
+  transform(myString.begin(), myString.end(), myString.begin(), ::toupper);
+  cout << myString << endl; // Output: "HELLO, WORLD!"
+
+  // Call the sayHello() method of the Person objects
+  person1.sayHello(); // Output: "Hello, my name is Alice and I am 25 years old."
+  person2.sayHello(); // Output: "Hello, my name is Bob and I am 30 years old."
 
   return 0;
 }

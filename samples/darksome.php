@@ -1,34 +1,40 @@
 <?php
-/*
- * Once upon a time...
- */
-class Vampire {
-  public string $location;
-  public int $birthDate;
-  public int $deathDate;
-  public array $weaknesses;
 
-  public function __construct(array $props) {
-    $this->location = $props['location'];
-    $this->birthDate = $props['birthDate'];
-    $this->deathDate = $props['deathDate'];
-    $this->weaknesses = $props['weaknesses'];
-  }
+class Person {
+    public $name;
+    public $age;
 
-  public function age(): int {
-    return $this->calcAge();
-  }
+    function __construct($name, $age) {
+        $this->name = $name;
+        $this->age = $age;
+    }
 
-  private function calcAge(): int {
-    return $this->deathDate - $this->birthDate;
-  }
+    function sayHello() {
+        echo "Hello, my name is $this->name and I am $this->age years old.\n";
+    }
 }
 
-// ...there was a guy named Vlad
-$Dracula = new Vampire([
-  'location' => 'Transylvania',
-  'birthDate' => 1428,
-  'deathDate' => 1476,
-  'weaknesses' => ['Sunlight', 'Garlic']
-]);
+// Create two objects of the Person class
+$person1 = new Person("Alice", 25);
+$person2 = new Person("Bob", 30);
+
+// Access the properties of the objects
+echo $person1->name . "\n"; // Output: "Alice"
+echo $person2->age . "\n";  // Output: 30
+
+// Declare and initialize variables with different data types
+$myNumber = 42;
+$myArray = array("apple", "banana", "orange");
+$myString = "Hello, world!";
+
+// Use the variables in different ways
+echo $myNumber * 2 . "\n";                  // Output: 84
+echo $myArray[1] . "\n";                    // Output: "banana"
+echo $myString . "\n";                      // Output: "Hello, world!"
+echo strtoupper($myString) . "\n";          // Output: "HELLO, WORLD!"
+
+// Call the sayHello() method of the Person objects
+$person1->sayHello(); // Output: "Hello, my name is Alice and I am 25 years old."
+$person2->sayHello(); // Output: "Hello, my name is Bob and I am 30 years old."
+
 ?>

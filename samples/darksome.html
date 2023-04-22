@@ -1,34 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Dracula</title>
-</head>
-<body>
-  <!-- Once upon a time... -->
-  <h1>Vampires</h1>
+  <head>
+    <meta charset="UTF-8">
+    <title>My HTML Page</title>
+    <style>
+      /* This is a CSS comment */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="main-header" class="header">
+      <h1 style="color: #333; text-align: center;">Welcome to my HTML page!</h1>
+      <nav>
+        <ul>
+          <li><a href="#about" title="About me">About</a></li>
+          <li><a href="#services" title="My services">Services</a></li>
+          <li><a href="#contact" title="Contact me">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>About me</h2>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Occupation:</strong> Web developer</p>
+      <p><strong>Location:</strong> San Francisco, CA</p>
+      <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+      <img src="https://example.com/image.jpg" alt="A sample image" width="200"
+        height="200">
+    </section>
+    <section id="services">
+      <h2>My services</h2>
+      <ul>
+        <li><strong>Web design:</strong> Custom website design for your business
+        </li>
+        <li><strong>Web development:</strong> Building and launching your
+          website</li>
+        <li><strong>Web hosting:</strong> Hosting your website on our servers
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact me</h2>
+      <form action="https://example.com/contact" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"
+          required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+          placeholder="Enter your email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message"
+          required></textarea>
+        <button type="submit" name="submit" value="send">Send message</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 John Doe</p>
+    </footer>
+    <script>
+      const name = document.getElementById('name');
 
-  <form>
-    <label for="location">Location</label>
-    <input type="text" name="location" value="Transylvania">
-    <label for="birthDate">Birth Date:</label>
-    <input type="number" name="birthDate" value="1428">
-    <label for="deathDate">Death Date:</label>
-    <input type="number" name="deathDate" value="1476">
-    <label for="weaknesses">Weaknesses:</label>
-    <input type="checkbox" name="weaknesses" value="Sunlight" checked>
-    <input type="checkbox" name="weaknesses" value="Garlic" checked>
+      const email = document.getElementById('email');
 
-    <button type="submit">Submit</button>
-  </form>
+      const message = document.getElementById('message');
 
-  <script>
-    // ...there was a guy named Vlad
-    const form = document.querySelector('form');
-    form.addEventListener('submit', (e) => {
-      const { birthDate, deathDate } = e.target;
-      const age = deathDate.value - birthDate.value;
-    });
-  </script>
-</body>
+      const submit = document.getElementById('submit');
+
+      submit.addEventListener('click', function() {
+
+        // Check if the name field is empty
+
+        if (name.value === '') {
+
+          // If it is, display an alert message
+
+          alert('Please enter your name');
+
+        }
+
+        // Check if the email field is empty
+
+        if (email.value === '') {
+
+          // If it is, display an alert message
+
+          alert('Please enter your email');
+
+        }
+
+        // Check if the message field is empty
+
+        if (message.value === '') {
+
+          // If it is, display an alert message
+
+          alert('Please enter your message');
+
+        }
+
+      });
+
+
+      // if everything is ok, submit the form submit the form
+
+      form.addEventListener('submit', function(event) {
+
+        // Prevent the form from being submitted
+
+        event.preventDefault();
+
+        // Display an alert message
+
+        alert('Form submitted successfully');
+
+      });
+
+    </script>
+  </body>
 </html>

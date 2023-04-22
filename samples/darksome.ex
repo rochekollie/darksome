@@ -13,7 +13,7 @@ defmodule Vampire do
       weaknesses: props[:weaknesses]
     }
   end
-  
+
   def age(vampire) do
     calc_age(vampire)
   end
