@@ -10,17 +10,26 @@
         background-color: #f0f0f0;
       }
     </style>
+    <p>This is a paragraph <a href="#">link</a> with a <span>character</span></p>
   </head>
   <body>
     <header id="main-header" class="header">
-      <h1 style="color: #333; text-align: center;">Welcome to my HTML page!</h1>
-      <nav>
+      <h1 style="color: #333; text-align: center;">
+        The Gospel, according to John
+      </h1>
+      <nav aria-label="another-navbar">
         <ul>
           <li><a href="#about" title="About me">About</a></li>
           <li><a href="#services" title="My services">Services</a></li>
           <li><a href="#contact" title="Contact me">Contact</a></li>
         </ul>
       </nav>
+      <h1>The Book of John</h1>
+      <ul>
+        <li><a href="#about" title="About me">About</a></li>
+        <li><a href="#services" title="My services">Services</a></li>
+        <li><a href="#contact" title="Contact me">Contact</a></li>
+      </ul>
     </header>
     <section id="about">
       <h2>About me</h2>
@@ -31,7 +40,7 @@
       <img src="https://example.com/image.jpg" alt="A sample image" width="200"
         height="200">
     </section>
-    <section id="services">
+    <section id="services" class="services">
       <h2>My services</h2>
       <ul>
         <li><strong>Web design:</strong> Custom website design for your business
@@ -42,6 +51,10 @@
         </li>
       </ul>
     </section>
+    <!-- add a svg file -->
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /></svg>
+
     <section id="contact">
       <h2>Contact me</h2>
       <form action="https://example.com/contact" method="POST">
@@ -57,8 +70,12 @@
         <button type="submit" name="submit" value="send">Send message</button>
       </form>
     </section>
+    <p>
+      In the beginning, was the Word, and the Word was with God, and the Word was God. The Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the <b>Father</b>, full of grace and truth. For from his fullness we have all received, grace upon grace. For the law was given through Moses; grace and truth came through <span class="red-text-style">Jesus Christ</span> No one has ever seen God; the only God, who is at the Father's side, he has made him known.
+    </p>
+
     <footer>
-      <p>&copy; 2023 John Doe</p>
+      <p>&copy;<span id="copyright"></span> All rights reserved.</p>
     </footer>
     <script>
       const name = document.getElementById('name');

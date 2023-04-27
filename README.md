@@ -6,7 +6,7 @@ Enjoy, and happy coding!
 
 [@rochekollie](https://twitter.com/rochekollie).
 
-***Darksome is actively in development and is available for experimental use at this time. Please check back regularly for updates as we continue to improve the theme***.
+**Darksome is actively in development and is available for experimental use at this time**.
 
 ## Screenshots
 
@@ -16,7 +16,7 @@ Enjoy, and happy coding!
 
 Instructions for installing from:
 
-### Visual Studio Code
+### Installing from Visual Studio Code
 
 1. Open VS Code
 2. Press F1
@@ -26,7 +26,7 @@ Instructions for installing from:
 6. Click "Install"
 7. Click "Reload" to reload the editor
 
-### Visual Studio Marketplace
+### Installing Visual Studio Marketplace
 
 1. Search for "Darksome" in the Visual Studio Marketplace
 2. Click the "Darksome" extension card from the search results

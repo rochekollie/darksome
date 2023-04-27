@@ -3,8 +3,8 @@
   "author": "Roche Kollie",
   "publisher": "rochekollie",
   "displayName": "Darksome",
-  "description": "Darksome is dark and awesome—a visually stunning theme perfectly balanced for an enjoyable coding experience.",
-  "version": "0.0.4",
+  "description": "A visually stunning dark theme for an enjoyable coding experience.",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -12,12 +12,13 @@
     "type": "git",
     "url": "https://github.com/rochekollie/darksome"},
   "license": "MIT",
-  "icon": "icon.png",
+  "icon": "./assets/icons/darksome-icon-v3.png",
   "keywords": [
-    "themes",
-    "dark",
-    "awesome",
-    "darksome"
+    "dark theme",
+    "dark color theme",
+    "darksome",
+    "darksome theme",
+    "roche kollie"
   ],
   "categories": [
     "Themes"
