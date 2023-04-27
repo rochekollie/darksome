@@ -1177,6 +1177,16 @@
 			}
 		},
 		{
+			"name": "HTML Entity",
+			"scope": [
+				"punctuation.definition.entity.html",
+				"constant.character.entity.named",
+			],
+			"settings": {
+				"foreground": "#c46ce8"
+			}
+		},
+		{
 			"name": "Quote",
 			"scope": [
 				"punctuation.definition.string.begin.html",
@@ -1559,7 +1569,9 @@
 			"name": "CSS Functions",
 			"scope": [
 				"support.function.misc.css",
-				"meta.function.color.css"
+				"meta.function.color.css",
+				"support.function.url.css",
+				"meta.function.url.css",
 			],
 			"settings": {
 				"foreground": "#a9dd76"
