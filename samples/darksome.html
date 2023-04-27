@@ -3,38 +3,36 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>My HTML Page</title>
-    <style>
-      /* This is a CSS comment */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-      }
-
-    </style>
-    <p>This is a paragraph <a href="#">link</a> with a <span>character</span>
-    </p>
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page Title</title>
+    <link rel="stylesheet" href="darksome.css">
+    <meta name="description" content="A description of the page">
   </head>
 
   <body>
     <header id="main-header" class="header">
-      <h1 style="color: #333; text-align: center;">
-        The Gospel, according to John
-      </h1>
-      <nav aria-label="another-navbar">
+      <h1>The Book of John</h1>
+      <nav>
         <ul>
-          <li><a href="#synopsis" title="About me">Synopsis</a></li>
+          <li><a href="#introduction" title="About me">Introduction</a></li>
           <li><a href="#chapters" title="My services">Chapters</a></li>
           <li><a href="#maps" title="Contact me">Maps</a></li>
           <li><a href="#"></a></li>
         </ul>
       </nav>
     </header>
-    <section id="synopsis">
-      <h2>The Book of John</h2>
-      <h3>Introduction</h3>
-      <img src="https://example.com/image.jpg" alt="A sample image" width="200"
-        height="200">
+    <section id="introduction">
+      <figure>
+        <img src="../assets/images/jonny-gios-the-garden-tomb-jerusalem.jpg"
+          alt="The Garden Tomb at Jerusalem" height="200">
+        <figcaption>Photo by <a
+            href="https://unsplash.com/@supergios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonny
+            Gios</a> on <a
+            href="https://unsplash.com/photos/TZ50uMfAK3E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </figcaption>
+      </figure>
+      <h2>Introduction</h2>
       <p>
         The Gospel of John is the fourth of the canonical gospels. Like the
         other gospels it is anonymous, although it identifies an unnamed
@@ -42,8 +40,10 @@
         closely related in style and content to the three Johannine epistles,
         and most scholars treat the four books, along with the Book of
         Revelation, as a single corpus of Johannine literature, albeit not from
-        the same author. The discourses contained in this gospel seem to be
-        concerned with issues of the church–synagogue debate at the time of
+        the same author.</p>
+      <p>
+        The discourses contained in this gospel seem to be
+        concerned with issues of the church&dash;synagogue debate at the time of
         composition. It is notable that in John, the community appears to
         define itself primarily in contrast to Judaism, rather than as part of
         a wider Christian community.
@@ -53,20 +53,76 @@
       <h2>Chapters</h2>
       <ol>
         <li>
-          <h3>
-            <a href="https://example.com/chapter-1">Chapter 1</a>
-          </h3>
+          <a href="https://example.com/chapter-1">1</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-2">2</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-3">3</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-4">4</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-5">5</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-6">6</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-7">7</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-8">8</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-9">9</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-10">10</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-11">11</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-12">12</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-13">13</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-14">14</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-15">15</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-16">16</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-17">17</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-18">18</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-19">19</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-20">20</a>
+        </li>
+        <li>
+          <a href="https://example.com/chapter-21">21</a>
         </li>
       </ol>
     </section>
-    <!-- add a svg file -->
-    <svg width="100" height="100">
+    <!-- <svg width="100" height="100">
       <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4"
         fill="yellow" />
-    </svg>
-
+    </svg> -->
     <section id="contact">
-      <h2>Contact me</h2>
+      <h2>Get Daily Verse</h2>
       <form action="https://example.com/contact" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name"
@@ -80,19 +136,9 @@
         <button type="submit" name="submit" value="send">Send message</button>
       </form>
     </section>
-    <p>
-      In the beginning, was the Word, and the Word was with God, and the Word
-      was God. The Word became flesh and dwelt among us, and we have seen his
-      glory, glory as of the only Son from the <b>Father</b>, full of grace and
-      truth. For from his fullness we have all received, grace upon grace. For
-      the law was given through Moses; grace and truth came through <span
-        class="red-text-style">Jesus Christ</span> No one has ever seen God; the
-      only God, who is at the Father's side, he has made him known.
-    </p>
-
     <footer>
       <p>&copy;<span id="copyright"></span> All rights reserved.</p>
-      <p>Made with &hearts; </p>
+
     </footer>
   </body>
 

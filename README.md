@@ -10,7 +10,7 @@ Enjoy, and happy coding!
 
 ## Screenshots
 
-***COMING SOON***
+![Darksome Theme](./assets/images/HTML-Code-Sample.png)
 
 ## Installation
 
