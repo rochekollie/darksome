@@ -146,13 +146,18 @@
 		"statusBar.noFolderForeground": "#ffffff77",
 		"statusBarItem.remoteBackground": "#141414",
 		"statusBarItem.remoteForeground": "#4fc788",
-		"statusBarItem.warningForeground": "#b55117",
+		"statusBarItem.warningForeground": "#fac03b",
+		"statusBarItem.warningBackground": "#00000000",
+		"statusBarItem.errorBackground": "#00000000",
+		"statusBarItem.errorForeground": "#fb543f",
+		"statusBarItem.prominentBackground": "#00000000",
+		"statusBarItem.prominentForeground": "#05dbbb77",
 		"tab.activeBackground": "#101010",
 		"tab.activeBorder": "#00000000",
 		"tab.activeBorderTop": "#000000",
 		"tab.activeForeground": "#4fc788",
 		"tab.activeModifiedBorder": "#00000000",
-		"tab.border": "#101010",
+		"tab.border": "#282828",
 		"tab.hoverBackground": "#141414",
 		"tab.hoverBorder": "#00000000",
 		"tab.hoverForeground": "#ffffff99",
@@ -1650,6 +1655,16 @@
 			"settings": {
 				"foreground": "#c46ce7"
 			}
+		},
+		{
+			"name": "JavaScript Framework - Tags",
+			"scope": [
+				"entity.name.tag.template.html.vue",
+				"support.class.component.open.jsx"
+			],
+			"settings": {
+				"foreground": "#1ccd86"
+			}
 		}
-	],
+	]
 }

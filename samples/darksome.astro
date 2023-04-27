@@ -1,0 +1,24 @@
+---
+title: Astro Counter App
+---
+<div>
+  <h1>{props.title}</h1>
+  <p>Count: {state.count}</p>
+  <button @click={handleClick}>Click me!</button>
+</div>
+
+<script>
+  export default {
+    props: {
+      title: 'Astro Counter App'
+    },
+    state: {
+      count: 0
+    },
+    methods: {
+      handleClick() {
+        this.state.count += 1;
+      }
+    }
+  }
+</script>

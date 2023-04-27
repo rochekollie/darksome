@@ -4,35 +4,50 @@ All notable changes to the "Darksome" extension will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.6] - 2023-04-27
+
+### Fixed
+
+- Token color customizations for the following frameworks:
+  - React
+  - Vue
+  - Angular
+  - Svelte
+  - Astro
+  - SolidJS
+  - Django
+  - Flask
+- Status Bar warning/error colors to match the theme's color scheme
+
 ## [0.1.5] - 2023-04-27
 
-### Added
+### Fixed
 
 - Token color customizations for the following languages:
   - Java
   - Python
   
-- Java and Python Syntax Highlighting screenshot to the README.md file
+- Java and Python Syntax Highlighting missing screenshot to the README.md file
 
 ## [0.1.4] - 2023-04-27
 
-### Added
+### Fixed
 
 - Token color customizations for the following languages:
   - JavaScript
   - JSON
   
-- JavaScript and JSON Syntax Highlighting screenshot to the README.md file
+- JavaScript and JSON Syntax Highlighting missing screenshot in the README.md file
 
 ## [0.1.3] - 2023-04-27
 
-### Added
+### Fixed
 
-- HTML and CSS Syntax Highlighting screenshot to the README.md file
+- HTML and CSS Syntax Highlighting missing screenshot to in README.md file
 
 ## [0.1.2] - 2023-04-27
 
-### Added
+### Fixed
 
 - Token color customizations for CSS Functions
 - Token color customizations for HTML Entities
@@ -41,25 +56,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Fixed
 
-- Complete token color customizations for the following language:
+- Token color customizations for the following language:
   - CSS
+  - Reduced brightness of HTML token text foreground color.
 
 ## [0.1.0] - 2023-04-27
 
-### Fixed
+### Added
 
-- Reduced brightness of HTML token text foreground color.
+- Complete basic token color customizations for following languages:
+  - HTML
+  - CSS
+  - JavaScript
+  - JSON
+  - Java
+  - Python
 
 ## [0.0.5] - 2023-04-27
 
 ### Fixed
 
-- Complete token color customizations for the following language:
+- Token color customizations for the following language:
   - HTML
 
 ## [0.0.4] - 2023-04-22
 
-### Added
+### Fixed
 
 - Added basic token color customizations for the following tokens:
   - comments
@@ -75,7 +97,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [0.0.3] - 2023-04-20
 
-### Added
+### Fixed
 
 - Added workbench color customizations for the following UI elements
   - Title Bar
