@@ -981,7 +981,9 @@
 				// "entity.name.function",
 				"entity.name.function.member",
 				"keyword.operator.accessor.js",
-				"variable.other.object.property.java"
+				"variable.other.object.property.java",
+				"meta.member.access.python",
+				"variable.other.property",
 			],
 			"settings": {
 				"foreground": "#abcdef"

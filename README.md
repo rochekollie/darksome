@@ -10,14 +10,17 @@ Enjoy, and happy coding!
 
 ## Screenshots
 
-### HTML Code Sample
+### HTML and CSS Syntax Highlighting
 
-![HTML Code Sample](./assets/images/HTML-Code-Sample.png)
+![HTML and CSS Syntax Highlighting](./assets/images/html-and-css-syntax-highlighting.png)
 
+### JavaScript and JSON Syntax Highlighting
 
-### JavaScript and JSON Code Sample
+![JavaScript and JSON Syntax Highlighting](./assets/images/javascript-and-json-syntax-highlighting.png)
 
-![JavaScript and JSON Code Sample](./assets/images/JavaScript-and-JSON-Code-Sample.png)
+### Java and Python Syntax Highlighting
+
+![Java and Python Syntax Highlighting](./assets/images/java-and-python-syntax-highlighting.png)
 
 ## Installation
 

@@ -1,4 +1,8 @@
 // Define a class called Person
+/**
+ * A class is a blueprint for creating objects. It defines the properties and behaviors that objects can have.
+ * A class can contain fields and methods to describe the behavior of an object.
+ */
 class Person {
   String name;
   int age;
