@@ -3,8 +3,8 @@
   "author": "Roche Kollie",
   "publisher": "rochekollie",
   "displayName": "Darksome",
-  "description": "A visually stunning dark theme for an enjoyable coding experience.",
-  "version": "0.1.3",
+  "description": "A visually stunning dark theme for an immersive and productive coding experience.",
+  "version": "0.1.4",
   "engines": {
     "vscode": "^1.77.0"
   },

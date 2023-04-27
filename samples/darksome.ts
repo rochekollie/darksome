@@ -13,6 +13,22 @@ class Person {
   }
 }
 
+// create a new type and assign it to a variable
+
+type Human = {
+  name: string;
+  age: number;
+  sayHello(): void;
+};
+
+const person: Human = {
+  name: "Alice",
+  age: 25,
+  sayHello(): void {
+    console.log(`Hello, my name is ${ this.name } and I am ${ this.age } years old.`);
+  }
+};
+
 // Create two objects of the Person class
 const person1: Person = new Person("Alice", 25);
 const person2: Person = new Person("Bob", 30);

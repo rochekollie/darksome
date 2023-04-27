@@ -10,18 +10,34 @@ class Person {
   }
 }
 
-// Create two objects of the Person class
 const person1 = new Person("Alice", 25);
 const person2 = new Person("Bob", 30);
 
-// Access the properties of the objects
 console.log(person1.name); // Output: "Alice"
 console.log(person2.age); // Output: 30
 
-// Declare and initialize variables with different data types
 const myNumber = 42;
 const myArray = ["apple", "banana", "orange"];
 const myString = "Hello, world!";
+
+
+/**
+ * Returns the nth number in the Fibonacci sequence
+ * @param {number} n - The index of the number in the Fibonacci sequence
+ * @returns {number} - The nth number in the Fibonacci sequence
+ * @example fibonacci(0) // Output: 0
+ * @example fibonacci(2) // Output: 1
+ * @example fibonacci(4) // Output: 3
+ * @example fibonacci(10) // Output: 55
+ */
+function fibonacci(n) {
+  if (n <= 1) {
+    return n;
+  }
+
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
 
 let userName = prompt("What is your name?");
 
@@ -97,4 +113,4 @@ function createUser(name, age) {
 
 document.querySelector("button").addEventListener("click", () => {
   alert("Hello, world!");
-}));
+});

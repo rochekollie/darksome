@@ -10,7 +10,14 @@ Enjoy, and happy coding!
 
 ## Screenshots
 
-![Darksome Theme](./assets/images/HTML-Code-Sample.png)
+### HTML Code Sample
+
+![HTML Code Sample](./assets/images/HTML-Code-Sample.png)
+
+
+### JavaScript and JSON Code Sample
+
+![JavaScript and JSON Code Sample](./assets/images/JavaScript-and-JSON-Code-Sample.png)
 
 ## Installation
 
@@ -45,4 +52,6 @@ Instructions for installing from:
 
 ## Contributing
 
-***COMING SOON***
+**Darksome is actively in development, hence, contributions are welcome**.
+
+To contribute to Darksome, please create an issue on the [GitHub repository](https://github.com/rochekollie/darksome/issues).
