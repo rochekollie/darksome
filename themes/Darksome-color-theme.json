@@ -1306,7 +1306,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#abcdef",
+				"foreground": "#a7b7c7",
 				"fontStyle": "bold"
 			}
 		},
@@ -1314,10 +1314,12 @@
 			"name": "Markdown - Text",
 			"scope": [
 				"meta.paragraph.markdown",
+				"text.html.markdown",
 				"text.html.markdown"
 			],
 			"settings": {
-				"foreground": "#dadada"
+				// "foreground": "#dadada"
+				"foreground": "#a7b7c7"
 			}
 		},
 		{

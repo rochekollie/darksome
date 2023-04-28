@@ -1,5 +1,4 @@
 -- This is a comment
-
 CREATE TABLE employees (
   id INT PRIMARY KEY,
   first_name VARCHAR(50),
@@ -11,10 +10,10 @@ CREATE TABLE employees (
 
 INSERT INTO employees (id, first_name, last_name, email, hire_date, salary)
 VALUES
-  (1, 'John', 'Doe', 'john.doe@example.com', '2022-01-01', 50000.00),
-  (2, 'Jane', 'Doe', 'jane.doe@example.com', '2022-01-02', 55000.00),
-  (3, 'Bob', 'Smith', 'bob.smith@example.com', '2022-01-03', 60000.00),
-  (4, 'Alice', 'Jones', 'alice.jones@example.com', '2022-01-04', 65000.00);
+  (1, 'John', 'Doe', 'john.doe@example.com', '2023-04-20', 700.00),
+  (2, 'Jane', 'Doe', 'jane.doe@example.com', '2023-04-20', 900.00),
+  (3, 'Bob', 'Smith', 'bob.smith@example.com', '2023-04-20', 400.00),
+  (4, 'Alice', 'Joe', 'alice.joe@example.com', '2023-04-20', 500.00);
 
 SELECT
   first_name,
@@ -25,4 +24,4 @@ SELECT
 FROM
   employees
 WHERE
-  salary > 55000.00;
+  salary > 500.00;
