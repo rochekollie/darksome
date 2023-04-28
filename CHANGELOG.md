@@ -2,6 +2,16 @@
 
 All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.16.0] - 2023-04-28
+
+### Added: Button color customizations
+
+- Button secondary background
+- Button secondary foreground
+- Button secondary hover background
+- Button border
+- Button separator
+
 ## [0.15.3] - 2023-04-28
 
 ### Fixed: Banner foreground color customizations
