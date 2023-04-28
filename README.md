@@ -10,12 +10,12 @@ Happy coding! 🎉 🎉 🎉
 
 ## Installation
 
-1. Open VS Code.
-2. Press F1.
-3. Type "install".
-4. Select "Extensions: Install Extension".
-5. Search "Darksome" from the list.
-6. Click "Install".
+1. Press F1.
+2. Type "install".
+3. Select "Extensions: Install Extension".
+4. Search "Darksome" in the search box.
+5. Click on Darksome theme to select from the list.
+6. Click the "Install" button.
 7. Click "Reload" to reload the editor.
 
 ## Screenshots

@@ -4,134 +4,140 @@ All notable changes to the "Darksome" extension will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.1.7] - 2023-04-27
+## [0.13.0] - 2023-04-28
 
-### Fixed
+### Added: Breadcrumb color customizations
+
+- Breadcrumb background color
+- Breadcrumb foreground color
+- Breadcrumb picker background color
+- Breadcrumb focus foreground color
+- Breadcrumb active selection foreground color
+
+## [0.12.0] - 2023-04-27
+
+### Changed: Contribution instructions
 
 - Update contribution instructions in README.md file
 - Update CHANGELOG.md file
+
+### Added: Screenshots for Markdown and SQL
+
 - Markdown and SQL Syntax Highlighting missing screenshot.
 
-## [0.1.6] - 2023-04-27
+## [0.11.0] - 2023-04-27
 
-### Fixed
+### Added: Token color customizations for the following frameworks
 
-- Token color customizations for the following frameworks:
-  - React
-  - Vue
-  - Angular
-  - Svelte
-  - Astro
-  - SolidJS
-  - Django
-  - Flask
+- React
+- Vue
+- Angular
+- Svelte
+- Astro
+- SolidJS
+- Django
+- Flask
 - Status Bar warning/error colors to match the theme's color scheme
 
-## [0.1.5] - 2023-04-27
+## [0.10.0] - 2023-04-27
 
-### Fixed
+### Added: Token color customizations and screenshots for Java and Python
 
-- Token color customizations for the following languages:
-  - Java
-  - Python
-  
+- Java
+- Python
 - Java and Python Syntax Highlighting missing screenshot to the README.md file
 
-## [0.1.4] - 2023-04-27
+## [0.9.0] - 2023-04-27
 
-### Fixed
+### Added: Token color customizations and screenshots for JavaScript and JSON
 
-- Token color customizations for the following languages:
-  - JavaScript
-  - JSON
-  
-- JavaScript and JSON Syntax Highlighting missing screenshot in the README.md file
+- JavaScript
+- JSON
+- JavaScript and JSON Syntax Highlighting screenshot to the `README.md` file
 
-## [0.1.3] - 2023-04-27
+## [0.8.0] - 2023-04-27
 
-### Fixed
+### Added: Screenshots for HTML and CSS
 
-- HTML and CSS Syntax Highlighting missing screenshot to in README.md file
+- HTML and CSS Syntax Highlighting screenshot to `README.md` file
 
-## [0.1.2] - 2023-04-27
+## [0.7.0] - 2023-04-27
 
-### Fixed
+### Fixed: Token color customizations
 
-- Token color customizations for CSS Functions
-- Token color customizations for HTML Entities
+- CSS Functions
+- HTML Entities
 
-## [0.1.1] - 2023-04-27
+## [0.6.0] - 2023-04-27
 
-### Fixed
+### Added: Token color customizations for the following languages
 
-- Token color customizations for the following language:
-  - CSS
-  - Reduced brightness of HTML token text foreground color.
+- CSS
 
-## [0.1.0] - 2023-04-27
+### Changed: Token color customizations color
 
-### Added
+- Reduced brightness of HTML token text foreground color.
 
-- Complete basic token color customizations for following languages:
-  - HTML
-  - CSS
-  - JavaScript
-  - JSON
-  - Java
-  - Python
+## [0.5.0] - 2023-04-27
 
-## [0.0.5] - 2023-04-27
+### Added: Token color customizations for following languages
 
-### Fixed
+- Markdown
+- HTML
+- CSS
+- JavaScript
+- JSON
+- Java
+- Python
 
-- Token color customizations for the following language:
-  - HTML
+## [0.4.0] - 2023-04-27
 
-## [0.0.4] - 2023-04-22
+### Added: Token color customizations for the following language
 
-### Fixed
+- HTML
 
-- Added basic token color customizations for the following tokens:
-  - comments
-  - functions
-  - keywords
-  - numbers
-  - strings
-  - types
+## [0.3.0] - 2023-04-22
 
-### Fixed
+### Added: Token color customizations for the following tokens
+
+- comments
+- functions
+- keywords
+- numbers
+- strings
+- types
+
+### Changed: Redesigned the theme's logo
 
 - Redesigned the theme's logo to reflex the theme's color scheme
 
-## [0.0.3] - 2023-04-20
+## [0.2.0] - 2023-04-20
 
-### Fixed
+### Added: Workbench color customizations
 
-- Added workbench color customizations for the following UI elements
-  - Title Bar
-  - Activity Bar
-  - Side Bar
-  - Status Bar
-  - Editor Group
-  - Editor
-  - Editor Widget
-  - Panel
+- Title Bar
+- Activity Bar
+- Side Bar
+- Status Bar
+- Editor Group
+- Editor
+- Editor Widget
+- Panel
 
-## [0.0.2] - 2023-04-20
+## [0.1.1] - 2023-04-20
 
-### Fixed
+### Fixed: `README.md`, `package.json`, and `CHANGELOG.md` files
 
-- Updated the README.md file to edit the theme's short description.
-- Updated the README.md file to include the theme's long description.
+- Updated the theme's short description.
+- Updated the theme's long description.
 - Updated the CHANGELOG.md file
-- Updated the package.json file to include the `repository` properties
+- Updated the package.json file to include the theme's `repository` properties
 
-## [0.0.1] - 2023-04-20
+## [0.1.0] - 2023-04-20
 
-### Added
+### Added: Initial release
 
-- Initial release
-- First published to the Visual Studio Marketplace
+- Published theme to the Visual Studio Marketplace
 - Created a GitHub repository for the project
 
 ## [Unreleased] - 2023-04-20
