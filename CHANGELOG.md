@@ -2,6 +2,12 @@
 
 All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.15.2] - 2023-04-28
+
+### Fixed: Banner background color customizations
+
+- Banner background color
+
 ## [0.15.1] - 2023-04-28
 
 ### Fixed: Banner color customizations
@@ -50,8 +56,8 @@ All notable changes to the "Darksome" extension will be documented in this file.
 
 ### Changed: Contribution instructions
 
-- Update contribution instructions in README.md file
-- Update CHANGELOG.md file
+- Update contribution instructions in `README.md` file
+- Update `CHANGELOG.md` file
 
 ### Added: Screenshots for Markdown and SQL
 
@@ -77,7 +83,7 @@ All notable changes to the "Darksome" extension will be documented in this file.
 
 - Java
 - Python
-- Java and Python Syntax Highlighting missing screenshot to the README.md file
+- Java and Python Syntax Highlighting missing screenshot to the `README.md` file
 
 ## [0.9.0] - 2023-04-27
 
@@ -162,7 +168,7 @@ All notable changes to the "Darksome" extension will be documented in this file.
 
 - Updated the theme's short description.
 - Updated the theme's long description.
-- Updated the CHANGELOG.md file
+- Updated the `CHANGELOG.md` file
 - Updated the package.json file to include the theme's `repository` properties
 
 ## [0.1.0] - 2023-04-20
