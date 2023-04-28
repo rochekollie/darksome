@@ -1,8 +1,24 @@
 # Change Log
 
-All notable changes to the "Darksome" extension will be documented in this file.
+All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [0.14.0] - 2023-04-28
+
+### Added: Minimap color customizations
+
+- Minimap background color
+- Minimap error highlight color
+- Minimap find match highlight color
+- Minimap selection highlight color
+- Minimap warning highlight color
+- Minimap gutter added background color
+- Minimap gutter deleted background color
+- Minimap gutter modified background color
+- Minimap slider active background color
+- Minimap slider background color
+- Minimap hover background color
+- Minimap foreground opacity
+- Minimap selection occurrence highlight color
 
 ## [0.13.0] - 2023-04-28
 
