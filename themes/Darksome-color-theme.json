@@ -174,17 +174,17 @@
 		"statusBarItem.warningForeground": "#fac03b",
 		"tab.activeBackground": "#101010",
 		"tab.activeBorder": "#00000000",
-		"tab.activeBorderTop": "#000000",
+		"tab.activeBorderTop": "#00000000",
 		"tab.activeForeground": "#4fc788",
 		"tab.activeModifiedBorder": "#00000000",
-		"tab.border": "#282828",
+		"tab.border": "#00000099",
 		"tab.hoverBackground": "#141414",
-		"tab.hoverBorder": "#00000000",
-		"tab.hoverForeground": "#ffffff99",
+		"tab.hoverBorder": "#101010",
+		"tab.hoverForeground": "#dadada",
 		"tab.inactiveBackground": "#171717",
-		"tab.inactiveForeground": "#ffffff66",
+		"tab.inactiveForeground": "#f7f7f7",
 		"tab.inactiveModifiedBorder": "#00000000",
-		"tab.lastPinnedBorder": "#101010",
+		"tab.lastPinnedBorder": "#01010199",
 		"tab.unfocusedActiveBackground": "#00000000",
 		"tab.unfocusedActiveBorder": "#00000000",
 		"tab.unfocusedActiveBorderTop": "#00000000",
@@ -890,6 +890,15 @@
 			}
 		},
 		{
+			"name": "code",
+			"scope": [
+				"markup.raw"
+			],
+			"settings": {
+				"foreground": "#4fc788"
+			}
+		},
+		{
 			"name": "keyword",
 			"scope": [
 				"keyword",
@@ -1476,10 +1485,44 @@
 				"support.type.property-name.less",
 				"support.type.property-name.stylus",
 				"support.type.property-name.css",
+				// "support.type.vendored.property-name.css",
+				// "support.type.vendored.property-name.scss",
+				// "support.type.vendored.property-name.sass",
+				// "support.type.vendored.property-name.less",
+				// "support.type.vendored.property-name.stylus",
+				"punctuation.definition.variable.property.css",
+				// "variable.prop.css",
+				"meta.property-list.css",
 				"support.type.property-name.js"
 			],
 			"settings": {
 				"foreground": "#abcdef"
+			}
+		},
+		{
+			"name": "CSSVendorPropertyPunctuation",
+			"scope": [
+				"punctuation.definition.variable.property.css",
+			],
+			"settings": {
+				"foreground": "#a7b7c7"
+			}
+		},
+		{
+			"name": "CSS Vendor Property",
+			"scope": [
+				"support.type.vendored.property-name.css",
+				"support.type.vendored.property-name.scss",
+				"support.type.vendored.property-name.sass",
+				"support.type.vendored.property-name.less",
+				"support.type.vendored.property-name.stylus",
+				// "punctuation.definition.variable.property.css",
+				// "variable.prop.css",
+				// "meta.property-list.css",
+				// "support.type.property-name.js"
+			],
+			"settings": {
+				"foreground": "#611d70"
 			}
 		},
 		{

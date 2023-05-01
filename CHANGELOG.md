@@ -2,6 +2,26 @@
 
 All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.16.1] - 2023-05-01
+
+### Changed: Tabs border and foreground color customizations
+
+- Tabs border color
+- Tabs hover border color
+- Tabs hover foreground
+- Tabs inactive foreground
+- Tabs last pinned border color
+
+### Changed: Title bar border color customization
+
+- Title bar border color
+
+### Changed: CSS Vendor Prefix color customizations
+
+- CSS Vendor Prefix punctuation color
+- CSS Vendor Prefix property name color
+- CSS Vendor Prefix property value color
+
 ## [0.16.0] - 2023-04-28
 
 ### Added: Button color customizations
