@@ -32,6 +32,10 @@ Happy coding! 🎉 🎉 🎉
 
 ![Java and Python Syntax Highlighting](./assets/images/java-and-python-syntax-highlighting.png)
 
+### C++ and Rust Syntax Highlighting
+
+![C++ and Rust Syntax Highlighting](./assets/images/cplusplus-and-rust-syntax-highlighting.png)
+
 ### Markdown and SQL Syntax Highlighting
 
 ![Markdown and SQL Syntax Highlighting](./assets/images/markdown-and-sql-syntax-highlighting.png)
