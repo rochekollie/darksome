@@ -23,7 +23,7 @@
 		"breadcrumbPicker.background": "#171717",
 		"button.background": "#05dbbb77",
 		"button.foreground": "#000",
-		"button.hoverBackground": "#05dbbb55",
+		"button.hoverBackground": "#05dbbb70",
 		"button.secondaryBackground": "#141414",
 		"button.secondaryForeground": "#05dbbb77",
 		"button.secondaryHoverBackground": "#101010",

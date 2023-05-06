@@ -2,13 +2,19 @@
 
 All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.17.2] - 2023-05-06
+
+### Changed: Button Hover Background Color
+
+- `button.hoverBackground: #05dbbb70`
+
 ## [0.17.1] - 2023-05-06
 
 ### Changed: Tab border color customizations
 
-- `"tab.activeBorderTop": "#34a36a"`
-- `"tab.border": "#282828"`
-- `"tab.unfocusedActiveBorderTop": "#3b3b3b",`
+- `tab.activeBorderTop: #34a36a`
+- `tab.border: #282828`
+- `tab.unfocusedActiveBorderTop: #3b3b3b`
 
 ## [0.17.0] - 2023-05-01
 
