@@ -2,6 +2,14 @@
 
 All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.17.1] - 2023-05-06
+
+### Changed: Tab border color customizations
+
+- `"tab.activeBorderTop": "#34a36a"`
+- `"tab.border": "#282828"`
+- `"tab.unfocusedActiveBorderTop": "#3b3b3b",`
+
 ## [0.17.0] - 2023-05-01
 
 ### Added: Screen shots for the C++ and Rust languages
@@ -10,13 +18,13 @@ All notable changes to the "Darksome" extension will be documented in this file.
 
 ## [0.16.1] - 2023-05-01
 
-### Changed: Tabs border and foreground color customizations
+### Changed: Tab border and foreground color customizations
 
-- Tabs border color
-- Tabs hover border color
-- Tabs hover foreground
-- Tabs inactive foreground
-- Tabs last pinned border color
+- Tab border color
+- Tab hover border color
+- Tab hover foreground
+- Tab inactive foreground
+- Tab last pinned border color
 
 ### Changed: Title bar border color customization
 
