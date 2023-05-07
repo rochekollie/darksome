@@ -2,19 +2,87 @@
 
 All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.17.3] - 2023-05-07
+
+### Changed: Activity Bar
+
+- `activityBar.border`
+- `activityBar.foreground`
+- `activityBar.dropBorder`
+
+### Changed: Settings Input and Border Colors
+
+- `settings.headerBorder`
+- `settings.textInputBorder`
+- `settings.textInputBackground`
+- `settings.modifiedItemIndicator`
+- `settings.sashBorder`
+- `settings.settingsHeaderHoverForeground`
+- `settings.checkboxBackground`
+- `settings.checkboxBorder`
+- `settings.dropdownBackground`
+- `settings.dropdownBorder`
+- `settings.numberInputBackground`
+- `settings.numberInputBorder`
+- `settings.focusedRowBackground`
+- `settings.rowHoverBackground`
+- `settings.focusedRowBorder`
+
+### Changed: focusBorder Colors
+
+- `focusBorder`
+
+### Changed: Input Colors
+
+- `input.background`
+- `input.border`
+- `input.placeholderForeground`
+
+### Changed: List and Tree Colors
+
+- `list.activeSelectionBackground`
+- `list.activeSelectionForeground`
+- `list.focusAndSelectionOutline`
+- `list.focusOutline`
+- `list.hoverBackground`
+- `list.hoverForeground`
+- `list.inactiveFocusOutline`
+- `list.inactiveSelectionBackground`
+- `list.inactiveFocusBackground`
+
+### Changed: Title Bar Colors
+
+- `titleBar.activeForeground`
+
+### Changed: Sidebar Color Customizations
+
+- `sideBar.dropBackground`
+
+### Changed: Input Validation Colors
+
+- `inputValidation.errorBackground`
+- `inputValidation.errorBorder`
+- `inputValidation.infoBackground`
+- `inputValidation.errorForeground`
+- `inputValidation.infoForeground`
+- `inputValidation.warningBackground`
+- `inputValidation.warningBorder`
+- `inputValidation.warningForeground`
+- `inputValidation.infoBorder`
+
 ## [0.17.2] - 2023-05-06
 
 ### Changed: Button Hover Background Color
 
-- `button.hoverBackground: #05dbbb70`
+- `button.hoverBackground`
 
 ## [0.17.1] - 2023-05-06
 
 ### Changed: Tab border color customizations
 
-- `tab.activeBorderTop: #34a36a`
-- `tab.border: #282828`
-- `tab.unfocusedActiveBorderTop: #3b3b3b`
+- `tab.activeBorderTop`
+- `tab.border`
+- `tab.unfocusedActiveBorderTop`
 
 ## [0.17.0] - 2023-05-01
 
