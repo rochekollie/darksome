@@ -4,7 +4,7 @@
   "publisher": "rochekollie",
   "displayName": "Darksome",
   "description": "A visually stunning dark theme for an immersive and productive coding experience.",
-  "version": "0.17.3",
+  "version": "0.17.4",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -14,14 +14,18 @@
   "license": "MIT",
   "icon": "./assets/icons/darksome-icon-v3.png",
   "keywords": [
-    "dark theme",
-    "dark color theme",
     "darksome",
-    "darksome theme",
+    "dark themes",
     "roche kollie"
   ],
   "categories": [
     "Themes"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rochekollie/darksome/blob/master/LICENSE"
+    }
   ],
   "contributes": {
     "themes": [

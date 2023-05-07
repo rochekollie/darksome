@@ -47,6 +47,10 @@ Happy coding! 🎉 🎉 🎉
 - [x] Dark Theme
 - [x] Accessibility Complaint Contrast Ratio
 
+## License
+
+Darksome is licensed under the [MIT License](./LICENSE.md).
+
 ## Contributing
 
 The only way to contribute to Darksome at this time is to create an issue on the [GitHub repository](https://github.com/rochekollie/darksome/issues). Please include a detailed description of the issue and screenshots if possible. Your issue may be features, bugs, or suggestions. However, your issue will
