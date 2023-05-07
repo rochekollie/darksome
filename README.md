@@ -6,8 +6,6 @@ Happy coding! 🎉 🎉 🎉
 
 [@rochekollie](https://twitter.com/rochekollie).
 
-**Darksome is actively in development and is available for experimental use at this time**.
-
 ## Installation
 
 1. Press F1.
@@ -51,7 +49,30 @@ Happy coding! 🎉 🎉 🎉
 
 Darksome is licensed under the [MIT License](./LICENSE.md).
 
+## Roadmap
+
+- [x] Token color customizations for the following languages
+  - [x] Markdown
+  - [x] HTML
+  - [x] CSS
+  - [x] JavaScript
+  - [x] JSON
+  - [x] Java
+  - [x] Python
+- [x] Token color customizations for the following tokens
+  - [x] comments
+  - [x] functions
+  - [x] keywords
+  - [x] numbers
+  - [x] strings
+  - [x] types
+- [x] Designed the theme's file icons to reflex the theme's color scheme
+
 ## Contributing
 
 The only way to contribute to Darksome at this time is to create an issue on the [GitHub repository](https://github.com/rochekollie/darksome/issues). Please include a detailed description of the issue and screenshots if possible. Your issue may be features, bugs, or suggestions. However, your issue will
 be closed if it does not include a detailed description and screenshots when necessary.
+
+## Release Notes
+
+See [CHANGELOG.md](./CHANGELOG.md) for all release notes.
