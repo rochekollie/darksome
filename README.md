@@ -47,7 +47,7 @@ Happy coding! 🎉 🎉 🎉
 
 ## License
 
-Darksome is licensed under the [MIT License](./LICENSE.md).
+Darksome is licensed under the [MIT License](./LICENSE).
 
 ## Roadmap
 
