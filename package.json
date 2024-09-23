@@ -1,10 +1,10 @@
 {
   "name": "darksome",
   "author": "Roche Kollie",
-  "publisher": "rochekollie",
+  "publisher": "epaeltech",
   "displayName": "Darksome",
-  "description": "A visually stunning dark theme for an immersive and productive coding experience.",
-  "version": "1.0.1",
+  "description": "A dark and awesome theme for an immersive coding experience.",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
