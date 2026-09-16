@@ -6,20 +6,21 @@ class Person {
   }
 
   sayHello() {
-    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    console.log(
+      `Hello, my name is ${this.name} and I am ${this.age} years old.`,
+    );
   }
-}
+} //
 
-const person1 = new Person("Alice", 25);
-const person2 = new Person("Bob", 30);
+const person1 = new Person('Alice', 25);
+const person2 = new Person('Bob', 30);
 
 console.log(person1.name); // Output: "Alice"
 console.log(person2.age); // Output: 30
 
 const myNumber = 42;
-const myArray = ["apple", "banana", "orange"];
-const myString = "Hello, world!";
-
+const myArray = ['apple', 'banana', 'orange'];
+const myString = 'Hello, world!';
 
 /**
  * Returns the nth number in the Fibonacci sequence
@@ -38,15 +39,14 @@ function fibonacci(n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-
-let userName = prompt("What is your name?");
+let userName = prompt('What is your name?');
 
 if (myNumber === 42) {
   return true;
 }
 
 const myFunction = () => {
-  console.log("Hello, world!");
+  console.log('Hello, world!');
 };
 
 for (const key in object) {
@@ -62,13 +62,13 @@ for (let index = 0; index < array.length; index++) {
 
 switch (key) {
   case value:
-    console.log("value");
+    console.log('value');
     break;
   case value:
-    console.log("value");
+    console.log('value');
     break;
   default:
-    console.log("default");
+    console.log('default');
     break;
 }
 
@@ -81,36 +81,34 @@ console.log(myString.toUpperCase()); // Output: "HELLO, WORLD!"
 person1.sayHello(); // Output: "Hello, my name is Alice and I am 25 years old."
 person2.sayHello(); // Output: "Hello, my name is Bob and I am 30 years old."
 
-console.log("Hello, world!");
+console.log('Hello, world!');
 
 const date = new Date();
 
-const button = document.querySelector("button");
-button.addEventListener("click", () => {
-  alert("Hello, world!");
+const button = document.querySelector('button');
+button.addEventListener('click', () => {
+  alert('Hello, world!');
 });
 
-
 const student = {
-  name: "Alice",
+  name: 'Alice',
   age: 25,
   sayHello() {
     console.log(`Hello, my name is ${this.name}`);
-  }
+  },
 };
 
 console.log(student.sayHello()); // Output: "Hello, my name is Alice"
 
-console.log("Hello, world!");
-
+console.log('Hello, world!');
 
 function createUser(name, age) {
   return {
     name,
-    age
+    age,
   };
 }
 
-document.querySelector("button").addEventListener("click", () => {
-  alert("Hello, world!");
+document.querySelector('button').addEventListener('click', () => {
+  alert('Hello, world!');
 });

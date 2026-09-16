@@ -2,9 +2,34 @@
 
 All notable changes to the "Darksome" extension will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-09-16
+
+### Darksome 2.0: A New Era of Focus and Elegance
+
+Darksome version 2.0 is a complete overhaul of both syntax token colorization and the workbench interface, engineered for long coding sessions, superior contrast, and aesthetic harmony.
+
+#### 🎨 Redesigned Workbench & UI Colors
+
+- **Deep Obsidian & Slate Foundation**: Transitioned to a modern dark background palette (`#0a0e14`, `#10151d`, `#0c1117`) paired with clean borders (`#333e4f`).
+- **Accent Color Evolution**: Replaced older green tones with rich teal (`#1c989b`), cyan (`#2aabb8`), and electric blue (`#1d81a8`) accents across active badges, selections, and links.
+- **Tabs & Navigation**: Redesigned active tab indicators, hover states, breadcrumb trail navigation, and title bar integration.
+- **Enhanced Component Coverage**: Added bespoke styling for newer VS Code features including Sticky Scroll (`editorStickyScroll.background`), Inlay Hints, Command Center, Action Bar, and Notifications Center.
+- **Terminal ANSI Refresh**: Complete overhaul of the integrated terminal palette for crisp contrast and readability across dark backgrounds.
+
+#### ⚡ Revamped Syntax Highlighting (Token Colors)
+
+- **Functions & Methods**: Vivid blue and periwinkle tones (`#707dd5`, `#6f7ed7`, `#25a3d5`) for function declarations, method calls, and member invocations.
+- **Keywords & Storage**: Distinguished keywords and storage types in refined purple and dusty rose (`#b181d7`, `#a75274`), with italicized export/import statements.
+- **Strings & Values**: Soothing sea-green and teal (`#1c989b`, `#77d5a3`) for strings, object keys, and JSON values.
+- **Numbers & Units**: Vibrant cyan (`#2aabb8`, `#55aaf5`) for numerical constants and CSS units.
+- **Comments & Documentation**: Subdued slate (`#303c53`) for single-line comments, with emerald italic styling (`#1c8c6d`) for JSDoc and multi-line documentation comments across all major languages.
+- **JSX & Web Frameworks**: Specially tuned highlights for JSX/TSX tags (`#16b8a6`), component props, HTML attributes (`#707dd5`), and template tags.
+- **CSS / SCSS / LESS**: Granular styling for property names (`#55a9f5`), property values (`#77d5a3`), variables (`#abceef`), pseudo-classes (`#ceb2ff`), and vendor prefixes (`#c46ce8`).
+- **Markdown**: Refined heading hierarchy (`#42a5f5`), code fences (`#77d5a3`), link titles, and table formatting.
+
 ## [1.0.1] - 2023-05-07
 
-### FIXED: Updated broken links in the `LICENSE` file.
+### FIXED: Updated broken links in the `LICENSE` file
 
 - Updated broken links in the `LICENSE` file.
 

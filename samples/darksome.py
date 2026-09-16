@@ -8,9 +8,13 @@ class Person:
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
         """
-        The __init__() method is called the constructor and is always called when creating an object of the class.
-        Use the __init__() method to assign values to object properties, or other operations that are necessary to do when the object is being created.
+        The __init__() method is called a constructor and is always
+        called when creating an object.
+        Use the __init__() method to assign values to object properties,
+        or other operations that are necessary to do when the object
+        is being created.
         """
+
 
 # Create two objects of the Person class
 person1 = Person("Alice", 25)

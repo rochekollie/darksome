@@ -1,18 +1,19 @@
 {
   "name": "darksome",
   "author": "Roche Kollie",
-  "publisher": "epaeltech",
+  "publisher": "rochekollie",
   "displayName": "Darksome",
-  "description": "A dark and awesome theme for an immersive coding experience.",
-  "version": "1.0.2",
+  "description": "A professional dark theme designed for deep focus and long coding sessions.",
+  "version": "2.0.0",
   "engines": {
     "vscode": "^1.77.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rochekollie/darksome"},
+    "url": "https://github.com/rochekollie/darksome"
+  },
   "license": "MIT",
-  "icon": "./assets/icons/epaeltech-logo.png",
+  "icon": "./assets/logo/darksome.png",
   "keywords": [
     "darksome",
     "dark themes",
@@ -32,7 +33,7 @@
       {
         "label": "Darksome",
         "uiTheme": "vs-dark",
-        "path": "./themes/Darksome-color-theme.json"
+        "path": "./themes/Darksome.json"
       }
     ]
   }
